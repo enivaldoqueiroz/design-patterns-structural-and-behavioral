@@ -74,3 +74,103 @@ No **Visual Studio Code** (Windows, Mac e Linux):
   ```bash
   dotnet new console
   dotnet new console -o <nomeProjeto>
+
+  # Seção 2: Fundamentos  
+
+## Classes e Objetos  
+
+---
+
+## Acoplamento  
+
+Acoplamento é o nível de dependência/conhecimento que pode existir entre os módulos/classes do sistema.  
+
+Existem dois tipos de acoplamento:  
+1. Acoplamento Forte  
+2. Acoplamento Fraco  
+
+**Vantagens do acoplamento fraco:**  
+- Alterações em módulos/classes não quebram outros módulos/classes;  
+- A realização de testes é facilitada;  
+- A manutenção do código é mais fácil;  
+- Fica menos afetado por alterações em outras classes/módulos.  
+
+---
+
+## Interfaces  
+
+Uma **Interface** é um tipo de classe que contém apenas as assinaturas de métodos, propriedades, eventos e indexadores, e todos os membros são **públicos e abstratos**.  
+
+Uma interface funciona como um contrato entre si e qualquer classe que a implemente.  
+
+```csharp
+public interface ITeste
+{
+    void Imprimir();
+}
+
+## Características da Interface  
+
+- Não contém implementação;  
+- Os membros são públicos e abstratos;  
+- Não pode ser instanciada;  
+- Não contém um construtor nem campos/atributos;  
+- As classes que herdam a interface têm que implementar o contrato.  
+
+---
+
+## Vantagens  
+
+- Manutenibilidade;  
+- Extensibilidade;  
+- Testes facilitados.  
+
+📌 Regra de ouro: programe para uma interface e não para uma implementação.  
+
+---
+
+## Os 4 Pilares da Programação Orientada a Objetos  
+
+### 1. Encapsulamento  
+
+- Ocultar membros de uma classe do acesso exterior usando modificadores de acesso.  
+- Também chamado de *information hiding*.  
+
+**Modificadores de acesso em C#:**  
+- `public` – acesso por qualquer código;  
+- `private` – acesso somente dentro da classe;  
+- `protected` – acesso na mesma classe ou em classes derivadas;  
+- `internal` – acesso no mesmo assembly.  
+
+---
+
+### 2. Abstração  
+
+- Reduz a complexidade escondendo detalhes desnecessários.  
+- Identifica apenas as características essenciais de um objeto.  
+
+**Vantagens da abstração:**  
+- Simplifica o modelo do domínio;  
+- Oculta detalhes irrelevantes;  
+- Ajuda a particionar o programa em conceitos independentes;  
+- Evita duplicação e aumenta reuso.  
+
+**Tabela comparativa: Abstração x Encapsulamento**  
+
+|                | **Abstração** | **Encapsulamento** |
+|----------------|----------------|--------------------|
+| **Uso**        | Resolve problemas no nível de design | Resolve problemas no nível de implementação |
+| **Foco**       | O que o objeto faz | Como o objeto faz |
+| **Implementação** | Interfaces e classes abstratas | Modificadores de acesso |
+| **Objetivo**   | Define o que deve ser feito | Controla como é feito |
+
+---
+
+### 3. Herança  
+
+Permite que uma classe base compartilhe membros com classes derivadas.  
+
+```csharp
+class ClasseDerivada : ClasseBase
+{
+}
