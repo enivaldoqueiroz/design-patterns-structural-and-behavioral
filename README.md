@@ -174,3 +174,47 @@ Permite que uma classe base compartilhe membros com classes derivadas.
 class ClasseDerivada : ClasseBase
 {
 }
+
+# Seção 3: Padrão Adapter  
+
+## Definição  
+
+- Adapta uma interface em outra de acordo com a expectativa do cliente.  
+- Permite a colaboração de objetos com interfaces incompatíveis.  
+- Conhecido como **Invólucro** (*Wrapper*).  
+
+---
+
+## Intenção  
+
+- Converter a interface de uma classe em outra;  
+- Envolver (*Wrap*) uma classe existente com uma nova interface;  
+- Introduzir um componente **legado** em um novo sistema (tornando as interfaces compatíveis).  
+
+---
+
+## Exemplo: Plataforma .NET - ADO.NET  
+
+O objeto **DataAdapter** funciona como uma ponte entre os objetos **DataSet** e a **fonte de dados**.  
+
+---
+
+## Exemplo de Uso  
+
+- Quando um objeto precisa usar uma classe existente com uma interface incompatível;  
+- Quando você deseja criar uma classe reutilizável que coopere com classes que não possuam interfaces compatíveis.  
+
+---
+
+## Vantagens  
+
+- Aumenta a reutilização do código;  
+- Permite usar código entre plataformas diferentes;  
+- Permite a interação de dois ou mais objetos incompatíveis.  
+
+---
+
+## Desvantagens  
+
+- A complexidade geral do código aumenta porque é necessário introduzir um conjunto de novas interfaces e classes.  
+
