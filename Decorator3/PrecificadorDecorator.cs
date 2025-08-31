@@ -1,4 +1,4 @@
-﻿namespace Decoretor3
+﻿namespace Decorator3
 {
     // Decorator base
     public abstract class PrecificadorDecorator : IPrecificador

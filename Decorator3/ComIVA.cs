@@ -1,4 +1,4 @@
-﻿namespace Decoretor3
+﻿namespace Decorator3
 {
     // IVA (imposto) – ex.: 23%
     public class ComIVA : PrecificadorDecorator

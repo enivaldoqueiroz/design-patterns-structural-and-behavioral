@@ -1,4 +1,4 @@
-﻿namespace Decoretor3
+﻿namespace Decorator3
 {
     // Embalagem de presente – taxa fixa
     public class ComPresente : PrecificadorDecorator

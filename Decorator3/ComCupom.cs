@@ -1,4 +1,4 @@
-﻿namespace Decoretor3
+﻿namespace Decorator3
 {
     // Cupom de desconto – percentual
     public class ComCupom : PrecificadorDecorator

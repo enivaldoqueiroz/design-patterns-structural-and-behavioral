@@ -7,7 +7,7 @@
 
 //Decorators → ComIVA, ComFrete, ComCupom, ComPresente adicionam regras sem criar mil subclasses.
 
-using Decoretor3;
+using Decorator3;
 using System.Globalization;
 
 CultureInfo.CurrentCulture = new CultureInfo("pt-PT");         // € formatação

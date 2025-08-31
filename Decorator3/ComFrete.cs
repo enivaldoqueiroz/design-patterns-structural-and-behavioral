@@ -1,4 +1,4 @@
-﻿namespace Decoretor3
+﻿namespace Decorator3
 {
     // Frete – valor fixo
     public class ComFrete : PrecificadorDecorator

@@ -1,4 +1,4 @@
-﻿namespace Decoretor3
+﻿namespace Decorator3
 {
     // Concreto (preço base do pedido)
     public class PrecoBase : IPrecificador
