@@ -13,17 +13,17 @@ namespace Abstracao1
 
         private void Desconectar()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Desconectando o email");
         }
 
         private void Autenticar()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Autenticando o email");
         }
 
         private void Conectar()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Conectando o email");
         }
     }
 }
