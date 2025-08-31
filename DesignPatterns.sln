@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy1", "Proxy1\Proxy1.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy2", "Proxy2\Proxy2.csproj", "{0C978E8F-9646-41CC-8F35-FD79D850F615}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy3", "Proxy3\Proxy3.csproj", "{CAFE2605-65D4-4B66-9671-60EFC770AD3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{0C978E8F-9646-41CC-8F35-FD79D850F615}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C978E8F-9646-41CC-8F35-FD79D850F615}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C978E8F-9646-41CC-8F35-FD79D850F615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFE2605-65D4-4B66-9671-60EFC770AD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFE2605-65D4-4B66-9671-60EFC770AD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFE2605-65D4-4B66-9671-60EFC770AD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFE2605-65D4-4B66-9671-60EFC770AD3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
