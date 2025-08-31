@@ -12,6 +12,7 @@
     <projectFile>Composite1/Composite1.csproj</projectFile>
     <projectFile>Composite2/Composite2.csproj</projectFile>
     <projectFile>Composite3/Composite3.csproj</projectFile>
+    <projectFile>ConsoleApp1/ConsoleApp1.csproj</projectFile>
     <projectFile>Decorator1/Decorator1.csproj</projectFile>
     <projectFile>Decorator2/Decorator2.csproj</projectFile>
     <projectFile>Decorator4/Decorator4.csproj</projectFile>
@@ -34,7 +35,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1abcaca4-0a56-42dc-ad36-e6571c4c583f" name="Changes" comment="" />
+    <list default="true" id="1abcaca4-0a56-42dc-ad36-e6571c4c583f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +68,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b241c378a97f4447a2e6baf64e656013e8e910/_e67e6/Void.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/eniva/Documents/UDEMY/PADRÕES DE PROJETOS ESTRUTURAIS E COMPORTAMENTAIS GOF/DesignPatterns/Abstracao1/ServicoEmail.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Decorator4/Foto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Decorator4/FotoDecorator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Decorator4/IFoto.cs" root0="FORCE_HIGHLIGHTING" />
@@ -95,6 +100,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;.NET Project.Adapter1.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Adapter2.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Adapter3.executor&quot;: &quot;Run&quot;,
     &quot;.NET Project.Decorator4.executor&quot;: &quot;Run&quot;,
     &quot;.NET Project.Proxy1.executor&quot;: &quot;Debug&quot;,
     &quot;.NET Project.Proxy2.executor&quot;: &quot;Run&quot;,
@@ -113,7 +121,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.Decorator4">
+  <component name="RunManager" selected=".NET Project.Abstracao1">
     <configuration name="Abstracao1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -358,6 +366,29 @@
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="AUTO_ATTACH_CHILDREN" value="0" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Composite3/Composite3.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="ConsoleApp1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ConsoleApp1/ConsoleApp1.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -802,7 +833,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756665810151</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Correção">
+      <option name="closed" value="true" />
+      <created>1756667626326</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756667626326</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,7 +866,8 @@
     <MESSAGE value="Outros commitis" />
     <MESSAGE value="Implementação do pradrão Proxy3" />
     <MESSAGE value="Implementação do Padrão Decorator4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação do Padrão Decorator4" />
+    <MESSAGE value="Correção" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
