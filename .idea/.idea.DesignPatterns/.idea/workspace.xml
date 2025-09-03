@@ -37,14 +37,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1abcaca4-0a56-42dc-ad36-e6571c4c583f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Command1/Command1/Chef.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Command1/Command1/Commad.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Command1/Command1/Garcom.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Command1/Command1/Pedido.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPatterns.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.sln" afterDir="false" />
-    </list>
+    <list default="true" id="1abcaca4-0a56-42dc-ad36-e6571c4c583f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,30 +101,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.Abstracao1.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Adapter1.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Adapter2.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Adapter3.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Decorator4.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Proxy1.executor&quot;: &quot;Debug&quot;,
-    &quot;.NET Project.Proxy2.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Proxy3.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.42460316&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.Abstracao1.executor": "Run",
+    ".NET Project.Adapter1.executor": "Run",
+    ".NET Project.Adapter2.executor": "Run",
+    ".NET Project.Adapter3.executor": "Run",
+    ".NET Project.Command1.executor": "Run",
+    ".NET Project.Decorator4.executor": "Run",
+    ".NET Project.Proxy1.executor": "Debug",
+    ".NET Project.Proxy2.executor": "Run",
+    ".NET Project.Proxy3.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "XThreadsFramesViewSplitterKey": "0.42460316",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.Command1">
     <configuration name="Abstracao1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -858,7 +852,7 @@
       <workItem from="1756646857650" duration="4719000" />
       <workItem from="1756657684175" duration="4436000" />
       <workItem from="1756668158857" duration="274000" />
-      <workItem from="1756758456543" duration="2633000" />
+      <workItem from="1756758456543" duration="2829000" />
     </task>
     <task id="LOCAL-00001" summary="Implementação do padrão Proxy2">
       <option name="closed" value="true" />
@@ -908,7 +902,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756668266185</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implementação do padrão Command 1">
+      <option name="closed" value="true" />
+      <created>1756761594742</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1756761594742</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -935,7 +937,8 @@
     <MESSAGE value="Implementação do Padrão Decorator4" />
     <MESSAGE value="Correção" />
     <MESSAGE value="Criação da pasta Structural" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação da pasta Structural" />
+    <MESSAGE value="Implementação do padrão Command 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação do padrão Command 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
