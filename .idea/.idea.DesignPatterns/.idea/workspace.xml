@@ -39,15 +39,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1abcaca4-0a56-42dc-ad36-e6571c4c583f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Interator1/Cliente.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interator1/ConcreteCollection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interator1/IAbstractCollection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interator1/IAbstractIterator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interator1/Iterator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPatterns.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.sln" afterDir="false" />
-    </list>
+    <list default="true" id="1abcaca4-0a56-42dc-ad36-e6571c4c583f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -917,7 +909,7 @@
       <workItem from="1756668158857" duration="274000" />
       <workItem from="1756758456543" duration="2829000" />
       <workItem from="1756928391125" duration="3368000" />
-      <workItem from="1757096711963" duration="1254000" />
+      <workItem from="1757096711963" duration="1554000" />
     </task>
     <task id="LOCAL-00001" summary="Implementação do padrão Proxy2">
       <option name="closed" value="true" />
@@ -975,7 +967,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756761594742</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implementação do Padrão Interator1">
+      <option name="closed" value="true" />
+      <created>1757099283817</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757099283817</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1003,7 +1003,8 @@
     <MESSAGE value="Correção" />
     <MESSAGE value="Criação da pasta Structural" />
     <MESSAGE value="Implementação do padrão Command 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação do padrão Command 1" />
+    <MESSAGE value="Implementação do Padrão Interator1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação do Padrão Interator1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
