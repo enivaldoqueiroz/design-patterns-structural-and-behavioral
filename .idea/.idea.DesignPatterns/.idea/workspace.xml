@@ -28,6 +28,8 @@
     <projectFile>Flyweight2/Flyweight2.csproj</projectFile>
     <projectFile>Flyweight3/Flyweight3.csproj</projectFile>
     <projectFile>Heranca1/Heranca1.csproj</projectFile>
+    <projectFile>Interator1/Interator1.csproj</projectFile>
+    <projectFile>Interpreter1/Interpreter1.csproj</projectFile>
     <projectFile>Polimorfismo1/Polimorfismo1.csproj</projectFile>
     <projectFile>Proxy1/Proxy1.csproj</projectFile>
     <projectFile>Proxy2/Proxy2.csproj</projectFile>
@@ -37,7 +39,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1abcaca4-0a56-42dc-ad36-e6571c4c583f" name="Changes" comment="" />
+    <list default="true" id="1abcaca4-0a56-42dc-ad36-e6571c4c583f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Interator1/Cliente.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interator1/ConcreteCollection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interator1/IAbstractCollection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interator1/IAbstractIterator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interator1/Iterator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +87,12 @@
     <setting file="file://$PROJECT_DIR$/Decorator4/IFoto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Decorator4/MarcaDagua.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Decorator4/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Interator1/Cliente.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Interator1/ConcreteColletion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Interator1/IAbstractColletion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Interator1/IAbstractIterator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Interator1/Iterator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Interator1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proxy3/IImagem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proxy3/ImagemProxy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proxy3/ImagemReal.cs" root0="FORCE_HIGHLIGHTING" />
@@ -109,6 +125,7 @@
     ".NET Project.Adapter3.executor": "Run",
     ".NET Project.Command1.executor": "Run",
     ".NET Project.Decorator4.executor": "Run",
+    ".NET Project.Interator1.executor": "Run",
     ".NET Project.Proxy1.executor": "Debug",
     ".NET Project.Proxy2.executor": "Run",
     ".NET Project.Proxy3.executor": "Debug",
@@ -126,7 +143,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Command1">
+  <component name="RunManager" selected=".NET Project.Interator1">
     <configuration name="Abstracao1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -748,6 +765,52 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Interator1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Interator1/Interator1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Interpreter1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Interpreter1/Interpreter1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Polimorfismo1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -853,6 +916,8 @@
       <workItem from="1756657684175" duration="4436000" />
       <workItem from="1756668158857" duration="274000" />
       <workItem from="1756758456543" duration="2829000" />
+      <workItem from="1756928391125" duration="3368000" />
+      <workItem from="1757096711963" duration="1254000" />
     </task>
     <task id="LOCAL-00001" summary="Implementação do padrão Proxy2">
       <option name="closed" value="true" />
