@@ -40,15 +40,18 @@
     <projectFile>State1/State1.csproj</projectFile>
     <projectFile>Strategy1/Strategy1.csproj</projectFile>
     <projectFile>TemplateMethod1/TemplateMethod1.csproj</projectFile>
+    <projectFile>Visitor1/Visitor1.csproj</projectFile>
+    <projectFile>Vit.1/Vit.1.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1abcaca4-0a56-42dc-ad36-e6571c4c583f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TemplateMethod1/VideoMKV.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TemplateMethod1/VideoMP4.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TemplateMethod1/VideoPlayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visitor1/Carro.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visitor1/ILoja.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visitor1/IVisitor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visitor1/PrecoVisitor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPatterns.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.sln" afterDir="false" />
     </list>
@@ -130,6 +133,12 @@
     <setting file="file://$PROJECT_DIR$/TemplateMethod1/VideoMKV.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TemplateMethod1/VideoMP4.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TemplateMethod1/VideoPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Visitor1/Carro.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Visitor1/ILoja.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Visitor1/IVisitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Visitor1/PrecoVisitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Visitor1/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vit.1/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -150,39 +159,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.Abstracao1.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Adapter1.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Adapter2.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Adapter3.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Command1.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Decorator4.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Interator1.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Mediator1.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Memento1.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Observer1.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Proxy1.executor&quot;: &quot;Debug&quot;,
-    &quot;.NET Project.Proxy2.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Proxy3.executor&quot;: &quot;Debug&quot;,
-    &quot;.NET Project.State1.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Strategy1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.42460316&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.Abstracao1.executor": "Run",
+    ".NET Project.Adapter1.executor": "Run",
+    ".NET Project.Adapter2.executor": "Run",
+    ".NET Project.Adapter3.executor": "Run",
+    ".NET Project.Command1.executor": "Run",
+    ".NET Project.Decorator4.executor": "Run",
+    ".NET Project.Interator1.executor": "Run",
+    ".NET Project.Mediator1.executor": "Run",
+    ".NET Project.Memento1.executor": "Run",
+    ".NET Project.Observer1.executor": "Run",
+    ".NET Project.Proxy1.executor": "Debug",
+    ".NET Project.Proxy2.executor": "Run",
+    ".NET Project.Proxy3.executor": "Debug",
+    ".NET Project.State1.executor": "Run",
+    ".NET Project.Strategy1.executor": "Run",
+    ".NET Project.TemplateMethod1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "XThreadsFramesViewSplitterKey": "0.42460316",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected=".NET Project.TemplateMethod1">
+}]]></component>
+  <component name="RunManager" selected=".NET Project.Visitor1">
     <configuration name="Abstracao1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -1080,6 +1090,52 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Visitor1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Visitor1/Visitor1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Vit.1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Vit.1/Vit.1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -1097,7 +1153,7 @@
       <workItem from="1757096711963" duration="5776000" />
       <workItem from="1757229600475" duration="10339000" />
       <workItem from="1757240429483" duration="3253000" />
-      <workItem from="1757258508765" duration="2026000" />
+      <workItem from="1757258508765" duration="3740000" />
     </task>
     <task id="LOCAL-00001" summary="Implementação do padrão Proxy2">
       <option name="closed" value="true" />
@@ -1211,7 +1267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757243646327</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Implementação do Padrão TemplateMethod1">
+      <option name="closed" value="true" />
+      <created>1757260628625</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1757260628625</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1245,7 +1309,8 @@
     <MESSAGE value="Implementação do Padrão Observer1" />
     <MESSAGE value="Implementação do Padrão State1" />
     <MESSAGE value="Implementação do Padrão Stratagy1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação do Padrão Stratagy1" />
+    <MESSAGE value="Implementação do Padrão TemplateMethod1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação do Padrão TemplateMethod1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
