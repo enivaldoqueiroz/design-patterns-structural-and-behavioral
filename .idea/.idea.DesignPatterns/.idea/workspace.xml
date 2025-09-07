@@ -31,6 +31,7 @@
     <projectFile>Interator1/Interator1.csproj</projectFile>
     <projectFile>Interpreter1/Interpreter1.csproj</projectFile>
     <projectFile>Mediator1/Mediator1.csproj</projectFile>
+    <projectFile>Memento1/Memento1.csproj</projectFile>
     <projectFile>Polimorfismo1/Polimorfismo1.csproj</projectFile>
     <projectFile>Proxy1/Proxy1.csproj</projectFile>
     <projectFile>Proxy2/Proxy2.csproj</projectFile>
@@ -41,10 +42,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1abcaca4-0a56-42dc-ad36-e6571c4c583f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Mediator1/ConcreteFacebookGroupMediator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediator1/ConcreteUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediator1/IFacebookGroupMediator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediator1/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Memento1/Calculadora.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Memento1/ICalculadora.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Memento1/ICarataker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Memento1/IOriginator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Memento1/Memento.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPatterns.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.sln" afterDir="false" />
     </list>
@@ -93,9 +95,14 @@
     <setting file="file://$PROJECT_DIR$/Interator1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Mediator1/ConcreteFacebookGroupMediator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Mediator1/ConcreteUser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Mediator1/FacebookGroupMediator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Mediator1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Mediator1/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Memento1/Calculadora.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Memento1/ICalculadora.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Memento1/ICarataker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Memento1/IOriginator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Memento1/Memento.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Memento1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proxy3/IImagem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proxy3/ImagemProxy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proxy3/ImagemReal.cs" root0="FORCE_HIGHLIGHTING" />
@@ -130,6 +137,7 @@
     ".NET Project.Decorator4.executor": "Run",
     ".NET Project.Interator1.executor": "Run",
     ".NET Project.Mediator1.executor": "Run",
+    ".NET Project.Memento1.executor": "Run",
     ".NET Project.Proxy1.executor": "Debug",
     ".NET Project.Proxy2.executor": "Run",
     ".NET Project.Proxy3.executor": "Debug",
@@ -148,7 +156,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Mediator1">
+  <component name="RunManager" selected=".NET Project.Memento1">
     <configuration name="Abstracao1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -839,6 +847,29 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Memento1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Memento1/Memento1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Polimorfismo1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -945,7 +976,8 @@
       <workItem from="1756668158857" duration="274000" />
       <workItem from="1756758456543" duration="2829000" />
       <workItem from="1756928391125" duration="3368000" />
-      <workItem from="1757096711963" duration="4967000" />
+      <workItem from="1757096711963" duration="5776000" />
+      <workItem from="1757229600475" duration="2457000" />
     </task>
     <task id="LOCAL-00001" summary="Implementação do padrão Proxy2">
       <option name="closed" value="true" />
@@ -1019,7 +1051,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757099479988</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implementação do Padrão Mediator1">
+      <option name="closed" value="true" />
+      <created>1757103701087</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757103701087</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1048,7 +1088,8 @@
     <MESSAGE value="Criação da pasta Structural" />
     <MESSAGE value="Implementação do padrão Command 1" />
     <MESSAGE value="Implementação do Padrão Interator1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação do Padrão Interator1" />
+    <MESSAGE value="Implementação do Padrão Mediator1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação do Padrão Mediator1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
